@@ -1,18 +1,159 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  nav img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+    align-items: center;
+    background: rgb(240, 240, 240);
+  }
+  
+  .navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+  
+  }
+  
+  .navlinks li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .navlinks li a {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-even;
+    align-items: center;
+    width: 300px;
+    margin-left: 50px;
+  }
+  
+  .logo h1 {
+    color: rgb(48, 48, 48);
+  }
+  
+  
+  .inner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+  }
+
+  .inner h2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(197, 197, 197);
+  }
+  
+  .stats {
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  
+.stats h1 {
+    font-size: 60px;
+  }
+
+.studentImage {
+  width: 350px;
 }
 
-html,body {
-    width: 100%;
-    height: 100%;
-    background-color: #F3F6FD;
-    overflow-y: auto;
-    overflow-x: hidden;
+.studentNo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 150px;
 }
 
-section{
-    width: 100%;
-    height: 100%;
+
+
+
+
+
+.boardname{
+  
+  position: absolute;
+  z-index: 9;
+  color: white;
+  font-size: 50px;
+  top: 120vh;
+  text-align: center;
+  width: 100%;
 }
+header {
+position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+
+.inner {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url("../img/headerImage.jpg");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+#header-front
+{
+top: 25.3125vw;
+  left: calc(52.65% - 65.98958333333333vw / 2);
+  width: 65.98958vw;
+  position: absolute;
+  z-index: 3;
+  height: auto;
+}
+
+#header-stones
+{
+    position: absolute;
+  top: 35.08333vw;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+section {
+width: 100%;
+height: 1000px;
+}
+  
