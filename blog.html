@@ -1,94 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/blog.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+    <script defer src="./assets/js/blog.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
     <title>Blogs</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <nav id="navigation">
-        <div class="logo">
-          <img src="./assets/img/logo.png" />
-          <h1>Ananda College</h1>
-        </div>
-  
-        <ul class="navlinks">
-          <li>
-            <a href="./index.html">Home</a>
-          </li>
-          <li><a href="./blog.html"><B>Blog</B></a></li>
-          <li><a href="./students.html">Students</a></li>
-          <li><a href="./societies.html">Societies</a></li>
-        </ul>
-      </nav>
-
-      <div class="blogHeader">
-        <h1>Ananda College News Letter</h1>
+      <div class="logo">
+        <img src="./assets/img/logo.png" />
+        <h1>Ananda College</h1>
       </div>
 
-    <div class="blogContainer">
-      <div class="blogCard">
-        <img src="./assets/img/bits.png" alt="Image">
-        <div class="content">
-            <h3>BITS, the intra-school ICT competition is about to start</h3>
-            <h5>The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT</h5>
-        </div>
-        <div class="date">2021.07.20</div>
-        <button class="blogButton">View Story</button>
-    </div>
-    <div class="blogCard">
-      <img src="./assets/img/bits.png" alt="Image">
-      <div class="content">
-          <h3>BITS, the intra-school ICT competition is about to start</h3>
-          <h5>The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT</h5>
+      <ul class="navlinks">
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./blog.html"><b>Blog</b></a>
+        </li>
+        <li><a href="./students.html">Students</a></li>
+        <li><a href="./societies.html">Societies</a></li>
+      </ul>
+    </nav>
+
+    <div class="blogHeader">
+      <h1>Ananda College News Letter</h1>
+      <div class="blogHeaderBorder">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-      <div class="date">2021.07.20</div>
-      <button class="blogButton">View Story</button>
-  </div>
-  <div class="blogCard">
-    <img src="./assets/img/bits.png" alt="Image">
-    <div class="content">
-        <h3>BITS, the intra-school ICT competition is about to start</h3>
-        <h5>The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT</h5>
     </div>
-    <div class="date">2021.07.20</div>
-    <button class="blogButton">View Story</button>
-</div>
-<div class="blogCard">
-  <img src="./assets/img/bits.png" alt="Image">
-  <div class="content">
-      <h3>BITS, the intra-school ICT competition is about to start</h3>
-      <h5>The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT</h5>
-  </div>
-  <div class="date">2021.07.20</div>
-  <button class="blogButton">View Story</button>
-</div>
-<div class="blogCard">
-  <img src="./assets/img/bits.png" alt="Image">
-  <div class="content">
-      <h3>BITS, the intra-school ICT competition is about to start</h3>
-      <h5>The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT</h5>
-  </div>
-  <div class="date">2021.07.20</div>
-  <button class="blogButton">View Story</button>
-</div>
-<div class="blogCard">
-  <img src="./assets/img/bits.png" alt="Image">
-  <div class="content">
-      <h3>BITS, the intra-school ICT competition is about to start</h3>
-      <h5>The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT</h5>
-  </div>
-  <div class="date">2021.07.20</div>
-  <button class="blogButton">View Story</button>
-</div>
 
-
-
-    
-    </div>
-<script src="./assets/js/app.js"></script>
-</body>
+    <div class="blogContainer" id="blogContainer"></div>
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>
