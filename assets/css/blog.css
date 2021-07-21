@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  color: #091133;
+  
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+nav img {
+  width: 60px;
+  height: 60px;
+}
+
+nav {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2.5%;
+  width: 90%;
+  height: 5%;
+  min-height: 100px;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background: #f3f6fd;
+  position: fixed;
+  z-index: 999;
+  transition: 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.nav_attach {
+  border-radius: 0 0 1rem 1rem;
+  top: 0;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+.navlinks li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  font-size: clamp(0.5em, 2vw, 1.3em);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.logo h1 {
+  color: rgb(48, 48, 48);
+  font-size: clamp(0.75em, 2vw, 1.5em);
+}
+
+.blogContainer {
+  margin: auto;
+  width: 90%;
+    margin-top: 200px;
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.blogCard{
+    width: 350px;
+    height: 500px;
+    background-color: #f3f6fd;
+    -webkit-box-shadow: 5px 5px 16px -7px rgba(0,0,0,0.67); 
+box-shadow: 5px 5px 16px -7px rgba(0,0,0,0.67);
+border-radius: 10px;
+padding: 15px;
+margin: auto;
+}
+
+.blogCard img {
+    width: 320px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content h5 {
+    margin-top: 10px;
+}
+
+.blogButton {
+    padding : 10px;
+    background-color: rgb(224, 170, 69);
+    color: rgb(27, 27, 27);
+    border: 0;
+    border-radius: 10px;
+    float: right;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;   
+}
+
+.blogButton:hover {
+    background-color: rgb(199, 157, 81);
+}
+
+.date {
+    font-size: 15px;
+    width: 140px;
+    float: left;
+    margin-top: 25px;
+}
