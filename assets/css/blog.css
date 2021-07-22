@@ -253,3 +253,15 @@ margin: auto;
   justify-content: space-between;
   margin-top: -10px;
 }
+
+.searchBox{
+  align-self: flex-end;
+  margin: 50px 150px 0 0;
+  outline-width: 0;
+  width: 25%;
+  min-height: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding:5px 10px;
+}

@@ -1,5 +1,6 @@
 const blogData = [
     {
+        id: 0,
         title: "BITS, the intra-school ICT competition is about to start",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
@@ -7,70 +8,80 @@ const blogData = [
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 1,
+        title: "This is a random title",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 2,
+        title: "What am i doing?",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 3,
+        title: "This is getting boring",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 4,
+        title: "How much more do I have to write?",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 5,
+        title: "Please end this suffering",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 6,
+        title: "I've given up at this point",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 7,
+        title: "Maybe I should use a random title generator",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 8,
+        title: "	3 Simple Tips For Using School To Get Ahead Your Competition",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 9,
+        title: "How I Improved My School In One Day",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
         article: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae aliquam, dignissimos veritatis quos animi laboriosam repellendus reiciendis itaque blanditiis expedita velit corporis necessitatibus ipsa, earum vero placeat ducimus excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus nostrum debitis accusantium ad assumenda doloribus, harum excepturi ab illum perspiciatis iste eveniet rem molestias? Iste nostrum culpa aspernatur alias?"
     },
     {
-        title: "BITS, the intra-school ICT competition is about to start",
+        id: 10,
+        title: "School Is Crucial To Your Business. Learn Why!",
         description: "The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT",
         photo: "./assets/img/bits.png",
         date: "2021.07.20",
@@ -116,9 +127,9 @@ const createNewBlogCard = (title,description,photo,date,index) => {
     return blogCard
 }
 
-blogData && blogData.map((data,index)=>{
+blogData && blogData.map((data)=>{
     let blogContainer = document.getElementById('blogContainer')
-    blogContainer.append(createNewBlogCard(data.title,data.description,data.photo,data.date,index))
+    blogContainer.append(createNewBlogCard(data.title,data.description,data.photo,data.date,data.id))
 })
 
 $("#myModal").hide();
@@ -139,3 +150,19 @@ $('#close').click(()=>{
     $('#myModal').hide()
 })
 
+$('#searchBlog').on('input',()=>{
+    $('#blogContainer').html('')
+    let searchValue = $('#searchBlog').val()
+    let filteredList = blogData.filter(article => (article.title).includes(searchValue));
+    if(filteredList.length!==0){filteredList && filteredList.map((data)=>{
+        $('#noResultNotification').text('No Results')
+        let blogContainer = document.getElementById('blogContainer')
+        blogContainer.append(createNewBlogCard(data.title,data.description,data.photo,data.date,data.id))
+        $('[id=viewStoryButton]').click(function() {
+            let storyIndex = $(this).attr('data-id');      
+            setDataOnModal(storyIndex)
+        } );
+    })} else {
+        $('#noResultNotification').text('No Results')
+    }
+   });
