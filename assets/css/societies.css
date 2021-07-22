@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    color: #091133;
+    
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    position: relative;
+    background-color: #f3f5f6;  
+    padding-bottom: 50px;
+  }
+  
+  nav img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  nav {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2.5%;
+    width: 90%;
+    height: 5%;
+    min-height: 100px;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background: #fff;
+    position: fixed;
+    z-index: 999;
+    transition: 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .nav_attach {
+    border-radius: 0 0 1rem 1rem;
+    top: 0;
+  }
+  
+  .navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+  }
+  
+  .navlinks li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .navlinks li a {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-size: clamp(0.5em, 2vw, 1.3em);
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    margin-left: 50px;
+  }
+  
+  .logo h1 {
+    color: rgb(48, 48, 48);
+    font-size: clamp(0.75em, 2vw, 1.5em);
+  }
+  .blogHeader {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(224, 170, 69);
+    background-image: url('/assets/img/headerImage.jpg');
+    background-size: cover;
+    background-position: top center;
+    /* border-bottom: 10px solid #B01F1C; */
+  }
+  
+  .blogHeader h1 {
+    padding: 50px;
+    padding-top: 240px;
+    font-size: 60px;
+    color: #f3f6fd;
+  }
+  
+  .blogHeaderBorder{
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+  }
+  
+  .blogHeaderBorder div:nth-child(1){
+    flex: 0.5;
+    background-color: #B01F1C;
+  }
+  .blogHeaderBorder div:nth-child(2){
+    flex: 0.25;
+    background-color: #ce8500;
+  }
+  .blogHeaderBorder div:nth-child(3){
+    flex: 0.25;
+    background-color: #B01F1C;
+  }
+
+.cardContainer {
+    margin: 50px 0px 20px 50px;
+}
+
+  .clubCard {
+    width: 900px;
+    height: 200px;
+    margin-bottom: 30px;
+    background-color: #f3f6fd;
+    border-radius: 15px;background-color: #f3f6fd;
+    -webkit-box-shadow: 5px 5px 16px -7px rgba(0,0,0,0.67); 
+box-shadow: 5px 5px 16px -7px rgba(0,0,0,0.67);
+  }
+
+.clubContent {
+    display: flex;
+    flex-direction: row;
+}
+
+  .clubCard img {
+    height: 200px;
+    width: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+
+/* .text {
+    height: 160px;
+} */
+
+  .buttons {
+    float: right;
+    padding: 0px 20px;
+    /* margin-top: 20px; */
+  }
+
+.viewClub, .register {
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 15px;
+} 
+
+.viewClub {
+    background-color: rgba(255, 198, 92, 0.473);
+    border: 2px solid rgb(233, 159, 23);
+    padding: 7px 15px;
+}
+
+.register {
+    background-color: rgb(235, 161, 25);
+    border: 0;
+}
+
+.text h2 {
+    color: rgb(37, 37, 37);
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.text p {
+    color: rgb(49, 49, 49);
+    padding: 0px 20px;
+    font-size: 15px;
+}
