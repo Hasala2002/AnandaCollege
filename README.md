@@ -19,6 +19,6 @@ This is UI Design Focused website built in recognition of the school Ananda Coll
 
 
  
-![](https://i.ibb.co/nQxz908/abhiyogawebdev.png =200x200)
+![](https://i.ibb.co/nQxz908/abhiyogawebdev.png)
 **Please Note :**
 This website was made for the [Abhiyoga 2021](https://bcmu.lk/abhiyoga/)  Web Development Competition organized by Media Unit of Bandaranayake College, Gampaha
