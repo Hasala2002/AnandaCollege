@@ -133,6 +133,7 @@ blogData && blogData.map((data)=>{
 })
 
 $("#myModal").hide();
+$('#noResultNotification').hide()
 
 const setDataOnModal = (storyIndex) => {
     $('#modalTitle').text(blogData[storyIndex].title)
@@ -152,10 +153,10 @@ $('#close').click(()=>{
 
 $('#searchBlog').on('input',()=>{
     $('#blogContainer').html('')
-    let searchValue = $('#searchBlog').val()
-    let filteredList = blogData.filter(article => (article.title).includes(searchValue));
+    let searchValue = ($('#searchBlog').val()).toLowerCase();
+    let filteredList = blogData.filter(article => ((article.title).toLowerCase()).includes(searchValue));
     if(filteredList.length!==0){filteredList && filteredList.map((data)=>{
-        $('#noResultNotification').text('No Results')
+        $('#noResultNotification').hide()
         let blogContainer = document.getElementById('blogContainer')
         blogContainer.append(createNewBlogCard(data.title,data.description,data.photo,data.date,data.id))
         $('[id=viewStoryButton]').click(function() {
@@ -163,6 +164,6 @@ $('#searchBlog').on('input',()=>{
             setDataOnModal(storyIndex)
         } );
     })} else {
-        $('#noResultNotification').text('No Results')
+        $('#noResultNotification').show()
     }
    });
