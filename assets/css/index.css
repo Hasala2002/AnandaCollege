@@ -8,13 +8,17 @@
   color: #091133;
 }
 
-html,
+html{
+  width: 100%;
+  height: 100%;
+}
 body {
   width: 100%;
   height: 100%;
   font-family: sans-serif;
   position: relative;
   background-color: #f3f5f6;
+  overflow-x: hidden;
 }
 
 nav img {
@@ -39,6 +43,7 @@ nav {
   position: fixed;
   z-index: 999;
   transition: 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: 1px solid rgba(0, 0, 0, 0.089);
 }
 
 .nav_attach {
@@ -78,21 +83,25 @@ nav {
   font-size: clamp(0.75em, 2vw, 1.5em);
 }
 
-.inner h1 {
+.inner div{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner h1 {
+  font-size: clamp(50px, 5.5vw, 80px);
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .inner h2 {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-size: clamp(20px, 2vw, 50px);
   color: rgb(197, 197, 197);
+  text-align: center;
 }
 
 .stats {
@@ -143,7 +152,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/headerImage.jpg");
+  background-image: url("../img/ac3.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -224,7 +233,7 @@ section {
   padding: 10% 0 10% 0;
   /* margin-top: 10%; */
   width: fit-content;
-  flex: 0.7;
+  flex: 0.4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,7 +263,7 @@ section {
 
 .timelineContainer{
   width: 100%;
-  height: 100%;
+  height: fit-content;
   display: grid;
   place-items: center;
   padding: 7.5%;
@@ -388,11 +397,172 @@ section {
   margin-top: 5px;
 }
 
+footer{
+  width: 100%;
+  height: 100%;
+  background-color: #F8F8F8;
+  border-top: 1px solid rgba(0, 0, 0, 0.089);
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.footerTitle{
+  display: flex;
+  justify-content:center;
+  height:12.5%;
+  padding: 20px 0 0 0;
+}
+
+.footerTitle img{
+  height: 100%;
+}
+
+.footerSections{
+  width: 100%;
+  flex: 0.7;
+  display: flex;  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+.dataSet{
+  width: 100%;
+}
+
+.contactSection{
+justify-content: space-evenly;
+ height: 100%;
+ flex: 0.4;
+ display: flex;
+ flex-direction: column;
+ padding: 10px 30px 5% 30px;
+}
+
+.dataSet input{
+  outline-width: 0;
+  background-color: #fff;
+  width:100%;
+  height:10%;
+  min-height:50px;
+  padding:5px 10px;
+  border: none;
+  border-left: 10px solid #B01F1C;
+}
+
+.dataSet textarea {
+  outline-width: 0;
+  background-color: #fff;
+  width:100%;
+  resize: none;
+  height:20%;
+  min-height:100px;
+  padding:5px 10px;
+  border: none;
+  border-left: 10px solid #ce8500;
+}
+
+.contactSection p {
+  font-size: 0.9em;
+}
+
+.contactSection button {
+  outline-width: 0;
+  background-color: rgb(224, 170, 69);
+  /* color: #fff; */
+  font-weight: 500;
+  width:75%;
+  resize: none;
+  padding:10px;
+  border: none;
+}
+
+.documentsSection{
+  height: 100%;
+  flex: 0.2;
+  padding: 30px 30px 5% 30px;
+}
+
+.documentsSection p{
+  cursor: pointer;
+}
+
+.documentsSection h3{
+  margin-top: 20px;
+}
+
+.documentsSection p{
+  font-size: 0.8em;  
+  margin-top: 10px;
+}
+
+.inquiriesSection{
+  height: 100%;
+  flex: 0.4;
+  padding: 30px 30px 5% 30px;
+}
+
+.inquiries{
+  background-color: #f3f5f6;
+  width: 100%;
+  height: fit-content;
+  padding: 30px 30px 5% 30px;
+}
+
+.inquiries li{
+  display: flex;
+  margin-top: 20px;
+}
+
+.inquiries b{
+  white-space: pre;
+}
+
+.abhiyogaSec{
+  display: flex;
+  justify-content: space-between;
+}
+
+.abhiyogaSec div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
 
   
 @media only screen and (max-width: 600px) {
   .studentNo {
     flex-direction: column;
     width: 200px;
+  }
+  footer{
+    height: fit-content;
+    padding: 0 25px;
+  }
+  .footerSections{
+    flex-direction: column;
+  }
+  .inquiriesSection{
+    padding: 30px 0px 5% 0px;
+  }
+  .inquiries{
+    background-color: #f3f5f6;
+    width: 100%;
+    height: fit-content;
+  }
+  .contactSection{
+    min-height: 500px;
+  }
+  .footerTitle img{
+    max-height: 75px;
+  }
+  .abhiyogaSec div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    margin-top: auto;
   }
 }

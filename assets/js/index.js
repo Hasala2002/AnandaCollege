@@ -1,5 +1,8 @@
+let body = document.getElementById('body');
+
 window.onscroll = function() {
   let value = ((window.pageYOffset) / (($('section').offset()).top+10000)) + 1;
+  console.log(value);
   $('.inner').css("transform",`scale(${value})`);
   if(window.pageYOffset>=100){
     $('#navigation').addClass('nav_attach')

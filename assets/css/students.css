@@ -41,6 +41,7 @@
     position: fixed;
     z-index: 999;
     transition: 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border: 1px solid rgba(0, 0, 0, 0.089);
   }
   
   .nav_attach {
@@ -132,15 +133,16 @@ box-shadow: 5px 5px 16px -7px rgba(0,0,0,0.67);
   padding: 30px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 1rem;
 }
 
 .classButtons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
   margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
 }
 
 .classButtons button {
@@ -150,4 +152,141 @@ box-shadow: 5px 5px 16px -7px rgba(0,0,0,0.67);
   border-radius: 10px;
   margin: 20px 20px;
   font-weight: 700;
+}
+
+footer{
+  width: 100%;
+  height: 100%;
+  background-color: #F8F8F8;
+  border-top: 1px solid rgba(0, 0, 0, 0.089);
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.footerTitle{
+  display: flex;
+  justify-content:center;
+  height:12.5%;
+  padding: 20px 0 0 0;
+}
+
+.footerTitle img{
+  height: 100%;
+}
+
+.footerSections{
+  width: 100%;
+  flex: 0.7;
+  display: flex;  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+.dataSet{
+  width: 100%;
+}
+
+.contactSection{
+justify-content: space-evenly;
+ height: 100%;
+ flex: 0.4;
+ display: flex;
+ flex-direction: column;
+ padding: 10px 30px 5% 30px;
+}
+
+.dataSet input{
+  outline-width: 0;
+  background-color: #fff;
+  width:100%;
+  height:10%;
+  min-height:50px;
+  padding:5px 10px;
+  border: none;
+  border-left: 10px solid #B01F1C;
+}
+
+.dataSet textarea {
+  outline-width: 0;
+  background-color: #fff;
+  width:100%;
+  resize: none;
+  height:20%;
+  min-height:100px;
+  padding:5px 10px;
+  border: none;
+  border-left: 10px solid #ce8500;
+}
+
+.contactSection p {
+  font-size: 0.9em;
+}
+
+.contactSection button {
+  outline-width: 0;
+  background-color: rgb(224, 170, 69);
+  /* color: #fff; */
+  font-weight: 500;
+  width:75%;
+  resize: none;
+  padding:10px;
+  border: none;
+}
+
+.documentsSection{
+  height: 100%;
+  flex: 0.2;
+  padding: 30px 30px 5% 30px;
+}
+
+.documentsSection p{
+  cursor: pointer;
+}
+
+.documentsSection h3{
+  margin-top: 20px;
+}
+
+.documentsSection p{
+  font-size: 0.8em;  
+  margin-top: 10px;
+}
+
+.inquiriesSection{
+  height: 100%;
+  flex: 0.4;
+  padding: 30px 30px 5% 30px;
+}
+
+.inquiries{
+  background-color: #f3f5f6;
+  width: 100%;
+  height: fit-content;
+  padding: 30px 30px 5% 30px;
+}
+
+.inquiries li{
+  display: flex;
+  margin-top: 20px;
+}
+
+.inquiries b{
+  white-space: pre;
+}
+
+.abhiyogaSec{
+  display: flex;
+  justify-content: space-between;
+}
+
+.abhiyogaSec div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.abhiyogaSec div p{
+  bottom: 0;
 }
