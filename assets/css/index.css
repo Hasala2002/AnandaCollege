@@ -565,4 +565,66 @@ justify-content: space-evenly;
     text-align: right;
     margin-top: auto;
   }
+  .description{
+    flex-direction: column;
+    height: 110%;
+  }
+  .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+  }
+  .intro > p {
+    padding: 0;
+  }
+  .introTitle{
+    font-size: 2em;
+  }
+  .moto {
+    /* font-size: clamp(1em, 1.5em, 3em); */
+    font-size: clamp(1.5em, 2vw, 3em);
+    font-weight: 600;
+  }
+  
+  .motoPhonetics {
+    font-size: clamp(1em, 2vw, 1em);
+    font-weight: 400;
+  }
+  
+  .motoMeaning {
+    font-size: clamp(0.75em, 2vw, 1.3em);
+    font-weight: 500;
+    text-align: center;
+  }
+  .factTitle {
+    font-size: clamp(1em, 2vw, 1.2em);
+    font-weight: 600;
+  }
+  
+  .factText {
+    font-size: clamp(0.75em, 2vw, 1em);
+    font-weight: 400;
+  }
+  .inquiriesSection{
+    padding: 30px 0px 5% 0px;
+  }
+  .inquiries{
+    background-color: #f3f5f6;
+    width: 100%;
+    height: fit-content;
+  }
+  .contactSection{
+    min-height: 500px;
+  }
+  .inquiries li label{
+    display: grid;
+    place-items: center;
+  }
+  .inquiries li label > p {
+    font-size: 0.75em;
+  }
+  .inquiries li label > b {
+    font-size: 0.75em;
+  }
 }

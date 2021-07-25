@@ -221,6 +221,7 @@ box-shadow: 5px 5px 16px -7px rgba(0,0,0,0.67);
   color: rgb(37, 37, 37);
   padding: 10px 20px;
   font-size: 20px;
+  min-width: 290px;
 }
 
 .achievement{
@@ -381,4 +382,158 @@ justify-content: space-evenly;
 
 .abhiyogaSec div p{
   bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .blogHeader h1{
+    font-size: clamp(30px, 5.5vw, 60px);
+    text-align: center;
+  }
+  .studentNo {
+    flex-direction: column;
+    width: 200px;
+  }
+  footer{
+    height: fit-content;
+    padding: 0 25px;
+  }
+  .footerSections{
+    flex-direction: column;
+  }
+  .inquiriesSection{
+    padding: 30px 0px 5% 0px;
+  }
+  .inquiries{
+    background-color: #f3f5f6;
+    width: 100%;
+    height: fit-content;
+  }
+  .contactSection{
+    min-height: 500px;
+  }
+  .footerTitle img{
+    max-height: 75px;
+  }
+  .abhiyogaSec div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    margin-top: auto;
+  }
+  .description{
+    flex-direction: column;
+    height: 110%;
+  }
+  .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+  }
+  .intro > p {
+    padding: 0;
+  }
+  .introTitle{
+    font-size: 2em;
+  }
+  .moto {
+    /* font-size: clamp(1em, 1.5em, 3em); */
+    font-size: clamp(1.5em, 2vw, 3em);
+    font-weight: 600;
+  }
+  
+  .motoPhonetics {
+    font-size: clamp(1em, 2vw, 1em);
+    font-weight: 400;
+  }
+  
+  .motoMeaning {
+    font-size: clamp(0.75em, 2vw, 1.3em);
+    font-weight: 500;
+    text-align: center;
+  }
+  .factTitle {
+    font-size: clamp(1em, 2vw, 1.2em);
+    font-weight: 600;
+  }
+  
+  .factText {
+    font-size: clamp(0.75em, 2vw, 1em);
+    font-weight: 400;
+  }
+  .inquiriesSection{
+    padding: 30px 0px 5% 0px;
+  }
+  .inquiries{
+    background-color: #f3f5f6;
+    width: 100%;
+    height: fit-content;
+  }
+  .contactSection{
+    min-height: 500px;
+  }
+  .inquiries li label{
+    display: grid;
+    place-items: center;
+  }
+  .inquiries li label > p {
+    font-size: 0.75em;
+  }
+  .inquiries li label > b {
+    font-size: 0.75em;
+  }
+  .abhiyogaSec{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .abhiyogaSec div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+  }
+  
+  .abhiyogaSec div p{
+    bottom: 0;
+  }
+  .abhiyogaSec div p{
+    bottom: 0;
+    font-size: 12.5px;
+  }
+  .societies{
+    width:100%;
+    /* height:100%; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .clubCard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+  }
+.clubContent {
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.clubContent .text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.clubContent img {
+    height: auto;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
 }
