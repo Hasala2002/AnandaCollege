@@ -1,4 +1,6 @@
 let body = document.getElementById('body');
+const mobileNav = document.querySelector('.navlinks')
+const hamburger = document.querySelector('.hamburger');
 
 window.onscroll = function() {
   let value = ((window.pageYOffset) / (($('section').offset()).top+10000)) + 1;
@@ -10,6 +12,11 @@ window.onscroll = function() {
     $('#navigation').removeClass('nav_attach')
   }
 };
+
+hamburger.addEventListener('click', function() {
+  mobileNav.classList.toggle('active');
+  hamburger.classList.toggle('is-active');
+})
 
 
 
