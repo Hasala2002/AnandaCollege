@@ -8,6 +8,32 @@
   color: #091133;
 }
 
+.material-icons-outlined {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
 html{
   width: 100%;
   height: 100%;
@@ -261,7 +287,7 @@ section {
   font-weight: 600;
 }
 
-.timelineContainer{
+.ananda-timelineContainer{
   width: 100%;
   height: fit-content;
   display: grid;
@@ -269,12 +295,12 @@ section {
   padding: 7.5%;
 }
 
-.timeline {
+.ananda-timeline {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
 }
-.timeline:before {
+.ananda-timeline:before {
   top: 0;
   bottom: 0;
   position: absolute;
@@ -284,27 +310,27 @@ section {
   left: 50%;
   margin-left: -1.5px;
 }
-.timeline > li {
+.ananda-timeline > li {
   margin-bottom: 20px;
   position: relative;
 }
-.timeline > li:before,
-.timeline > li:after {
+.ananda-timeline > li:before,
+.ananda-timeline > li:after {
   content: " ";
   display: table;
 }
-.timeline > li:after {
+.ananda-timeline > li:after {
   clear: both;
 }
-.timeline > li:before,
-.timeline > li:after {
+.ananda-timeline > li:before,
+.ananda-timeline > li:after {
   content: " ";
   display: table;
 }
-.timeline > li:after {
+.ananda-timeline > li:after {
   clear: both;
 }
-.timeline > li > .timeline-panel {
+.ananda-timeline > li > .ananda-timeline-panel {
   width: 46%;
   float: left;
   border: 1px solid #d4d4d4;
@@ -314,7 +340,7 @@ section {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
-.timeline > li > .timeline-panel:before {
+.ananda-timeline > li > .ananda-timeline-panel:before {
   position: absolute;
   top: 26px;
   right: -15px;
@@ -325,7 +351,7 @@ section {
   border-bottom: 15px solid transparent;
   content: " ";
 }
-.timeline > li > .timeline-panel:after {
+.ananda-timeline > li > .ananda-timeline-panel:after {
   position: absolute;
   top: 27px;
   right: -14px;
@@ -336,7 +362,7 @@ section {
   border-bottom: 14px solid transparent;
   content: " ";
 }
-.timeline > li > .timeline-badge {
+.ananda-timeline > li > .ananda-timeline-badge {
   color: #fff;
   width: 50px;
   height: 50px;
@@ -354,46 +380,46 @@ section {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
-.timeline > li.timeline-inverted > .timeline-panel {
+.ananda-timeline > li.ananda-timeline-inverted > .ananda-timeline-panel {
   float: right;
 }
-.timeline > li.timeline-inverted > .timeline-panel:before {
+.ananda-timeline > li.ananda-timeline-inverted > .ananda-timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.ananda-timeline > li.ananda-timeline-inverted > .ananda-timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
   right: auto;
 }
-.timeline-badge.primary {
+.ananda-timeline-badge.primary {
   background-color: #2e6da4 !important;
 }
-.timeline-badge.success {
+.ananda-timeline-badge.success {
   background-color: #3f903f !important;
 }
-.timeline-badge.warning {
+.ananda-timeline-badge.warning {
   background-color: #f0ad4e !important;
 }
-.timeline-badge.danger {
+.ananda-timeline-badge.danger {
   background-color: #d9534f !important;
 }
-.timeline-badge.info {
+.ananda-timeline-badge.info {
   background-color: #5bc0de !important;
 }
-.timeline-title {
+.ananda-timeline-title {
   margin-top: 0;
   margin-bottom: 20px;
   color: rgb(78, 78, 78);
 }
-.timeline-body > p,
-.timeline-body > ul {
+.ananda-timeline-body > p,
+.ananda-timeline-body > ul {
   margin-bottom: 0;
 }
-.timeline-body > p + p {
+.ananda-timeline-body > p + p {
   margin-top: 5px;
 }
 
@@ -531,7 +557,7 @@ justify-content: space-evenly;
 }
 
   
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   .studentNo {
     flex-direction: column;
     width: 200px;

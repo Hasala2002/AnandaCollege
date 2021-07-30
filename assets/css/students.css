@@ -290,3 +290,90 @@ justify-content: space-evenly;
 .abhiyogaSec div p{
   bottom: 0;
 }
+
+@media only screen and (max-width: 850px) {
+  .abhiyogaSec div p{
+    bottom: 0;
+    font-size: 12.5px;
+  }
+  .studentNo {
+    flex-direction: column;
+    width: 200px;
+  }
+  footer{
+    height: fit-content;
+    padding: 0 25px;
+  }
+  .footerSections{
+    flex-direction: column;
+  }
+  .inquiriesSection{
+    padding: 30px 0px 5% 0px;
+  }
+  .inquiries{
+    background-color: #f3f5f6;
+    width: 100%;
+    height: fit-content;
+  }
+  .contactSection{
+    min-height: 500px;
+  }
+  .footerTitle img{
+    max-height: 75px;
+  }
+  .abhiyogaSec div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    margin-top: auto;
+  }
+  .searchBox{
+    position: absolute;
+    /* top: 50px; */
+    margin: 50px 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* right:0; */
+    outline-width: 0;
+    width: 75%;
+    min-height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding:5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+  }
+  #noResultNotification{
+    position: absolute;
+    /* top: 50px; */
+    margin: 125px 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .blogHeader h1{
+    font-size: clamp(30px, 5.5vw, 60px);
+    text-align: center;
+  }
+  .inquiriesSection{
+    padding: 30px 0px 5% 0px;
+  }
+  .inquiries{
+    background-color: #f3f5f6;
+    width: 100%;
+    height: fit-content;
+  }
+  .contactSection{
+    min-height: 500px;
+  }
+  .inquiries li label{
+    display: grid;
+    place-items: center;
+  }
+  .inquiries li label > p {
+    font-size: 0.75em;
+  }
+  .inquiries li label > b {
+    font-size: 0.75em;
+  }
+}
