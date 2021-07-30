@@ -1,47 +1,18 @@
-let body = document.getElementById('body');
-const mobileNav = document.querySelector('.navlinks')
-const hamburger = document.querySelector('.hamburger');
+let body = document.getElementById("body");
+const mobileNav = document.querySelector(".navlinks");
+const hamburger = document.querySelector(".hamburger");
 
-window.onscroll = function() {
-  let value = ((window.pageYOffset) / (($('section').offset()).top+10000)) + 1;
-  console.log(value);
-  $('.inner').css("transform",`scale(${value})`);
-  if(window.pageYOffset>=100){
-    $('#navigation').addClass('nav_attach')
-  }else{
-    $('#navigation').removeClass('nav_attach')
+window.onscroll = function () {
+  let value = window.pageYOffset / ($("section").offset().top + 10000) + 1;
+  $(".inner").css("transform", `scale(${value})`);
+  if (window.pageYOffset >= 100) {
+    $("#navigation").addClass("nav_attach");
+  } else {
+    $("#navigation").removeClass("nav_attach");
   }
 };
 
-hamburger.addEventListener('click', function() {
-  mobileNav.classList.toggle('active');
-  hamburger.classList.toggle('is-active');
-})
-
-
-
-// $(function(){
-	
-// 	var $window = $(window);		//Window object
-	
-// 	var scrollTime = 1.2;			//Scroll time
-// 	var scrollDistance = 170;		//Distance. Use smaller value for shorter scroll and greater value for longer scroll
-		
-// 	$window.on("mousewheel DOMMouseScroll", function(event){
-		
-// 		event.preventDefault();	
-										
-// 		var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
-// 		var scrollTop = $window.scrollTop();
-// 		var finalScroll = scrollTop - parseInt(delta*scrollDistance);
-			
-// 		TweenMax.to($window, scrollTime, {
-// 			scrollTo : { y: finalScroll, autoKill:true },
-// 				ease: Power1.easeOut,	//For more easing functions see https://api.greensock.com/js/com/greensock/easing/package-detail.html
-// 				autoKill: true,
-// 				overwrite: 5							
-// 			});
-					
-// 	});
-	
-// });
+hamburger.addEventListener("click", function () {
+  mobileNav.classList.toggle("active");
+  hamburger.classList.toggle("is-active");
+});

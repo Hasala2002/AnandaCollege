@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./assets/css/students.css">
     <link rel="icon" href="./assets/img/logo.png" sizes="16x16" type="image/png"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./assets/js/students.js"></script>
+    <script defer src="./assets/js/students.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
     integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
@@ -31,6 +31,11 @@
           <li><a href="./students.html"><b>Students</b></a></li>
           <li><a href="./societies.html">Societies</a></li>
         </ul>
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </nav>
   
       <div class="blogHeader">
@@ -67,46 +72,24 @@
       </div>
         <div class="timetableContainer">
           <div class="timetableTitle">
-            <h1>Online Class Timetable</h1>
-            <p>* Download your online class timetable from given link. After you select your grade, you will be redirected to your timetable</p>
+            <h1>Request a School Email Account</h1>
+            <p>Enter these basic details, We'll get back to you in 3-5 school days.</p>
           </div>
-          <div class="classButtons">
-            <button class="link">Grade 1</button>
-            <button class="link">Grade 2</button>
-            <button class="link">Grade 3</button>
-            <button class="link">Grade 4</button>
-            <button class="link">Grade 5</button>
-            <button class="link">Grade 6</button>
-            <button class="link">Grade 7</button>
-            <button class="link">Grade 8</button>
-            <button class="link">Grade 9</button>
-            <button class="link">Grade 10</button>
-            <button class="link">Grade 11</button>
-            <button class="link">Grade 12</button>
-            <button class="link">Grade 13</button>
-          </div>  
-        </div>
-      </div>
-        <div class="timetableContainer">
-          <div class="timetableTitle">
-            <h1>Online Class Timetable</h1>
-            <p>* Download your online class timetable from given link. After you select your grade, you will be redirected to your timetable</p>
+          <form class="contactSection">
+            <div class="dataSet">
+            <label for="fname">Full Name</label><br>
+            <input type="text" name="fname" placeholder="Name"><br>
           </div>
-          <div class="classButtons">
-            <button class="link">Grade 1</button>
-            <button class="link">Grade 2</button>
-            <button class="link">Grade 3</button>
-            <button class="link">Grade 4</button>
-            <button class="link">Grade 5</button>
-            <button class="link">Grade 6</button>
-            <button class="link">Grade 7</button>
-            <button class="link">Grade 8</button>
-            <button class="link">Grade 9</button>
-            <button class="link">Grade 10</button>
-            <button class="link">Grade 11</button>
-            <button class="link">Grade 12</button>
-            <button class="link">Grade 13</button>
-          </div>  
+            <div class="dataSet">
+            <label for="fname">Personal Email</label><br>
+            <input type="text" name="email" placeholder="Email"><br>
+          </div>       
+            <div class="dataSet">
+            <label for="fname">School Admission Number</label><br>
+            <input type="text" name="email" placeholder="Admission Number"><br>
+          </div>       
+            <button>Submit</button>
+          </form>  
         </div>
       </div>
       <footer>
@@ -118,11 +101,11 @@
           <h1>Leave a message</h1>
           <div class="dataSet">
           <label for="fname">Full Name</label><br>
-          <input type="text" id="fname" name="fname" placeholder="Name"><br>
+          <input type="text" name="fname" placeholder="Name"><br>
         </div>
           <div class="dataSet">
           <label for="fname">Email</label><br>
-          <input type="text" id="fname" name="email" placeholder="Email"><br>
+          <input type="text" name="email" placeholder="Email"><br>
         </div>
           <div class="dataSet">
           <label for="fname">Message</label><br>

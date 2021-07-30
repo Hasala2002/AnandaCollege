@@ -9,10 +9,10 @@
 }
 
 .material-icons-outlined {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -30,11 +30,10 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* Support for IE. */
-  font-feature-settings: 'liga';
+  font-feature-settings: "liga";
 }
 
-
-html{
+html {
   width: 100%;
   height: 100%;
 }
@@ -139,33 +138,33 @@ nav {
 }
 
 @media screen and (max-width: 986px) {
-    .hamburger {
-      display: block;
-    }
+  .hamburger {
+    display: block;
+  }
 
-    .navlinks {
-      position: absolute;
-      top: -1000px;
-      background-color: #fff;
-      width: 100%;
-      height: 450px;
-      font-size: 2.5em;
-      padding-top: 80px;
-      flex-direction: column;
-      left: 0;
-      justify-content: space-evenly;
-      align-items: center;
-      border-radius: 20px;
-      z-index: -1;
-    }
+  .navlinks {
+    position: absolute;
+    top: -1000px;
+    background-color: #fff;
+    width: 100%;
+    height: 450px;
+    font-size: 2.5em;
+    padding-top: 80px;
+    flex-direction: column;
+    left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    z-index: -1;
+  }
 
-    .navlinks.active {
-      top: 0; 
-    }
+  .navlinks.active {
+    top: 0;
+  }
 
-    .logo h1 {
-      font-size: 1.5em;
-    }
+  .logo h1 {
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (max-width: 625px) {
@@ -176,10 +175,9 @@ nav {
   .logo h1 {
     display: none;
   }
-  
 }
 
-.inner div{
+.inner div {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -357,7 +355,7 @@ section {
   font-weight: 600;
 }
 
-.ananda-timelineContainer{
+.ananda-timelineContainer {
   width: 100%;
   height: fit-content;
   display: grid;
@@ -493,66 +491,66 @@ section {
   margin-top: 5px;
 }
 
-footer{
+footer {
   width: 100%;
   height: 100%;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-top: 1px solid rgba(0, 0, 0, 0.089);
   display: flex;
   flex-direction: column;
   padding: 0 50px;
 }
 
-.footerTitle{
+.footerTitle {
   display: flex;
-  justify-content:center;
-  height:12.5%;
+  justify-content: center;
+  height: 12.5%;
   padding: 20px 0 0 0;
 }
 
-.footerTitle img{
+.footerTitle img {
   height: 100%;
 }
 
-.footerSections{
+.footerSections {
   width: 100%;
   flex: 0.7;
-  display: flex;  
+  display: flex;
   border-bottom: 1px solid rgba(0, 0, 0, 0.089);
 }
 
-.dataSet{
+.dataSet {
   width: 100%;
 }
 
-.contactSection{
-justify-content: space-evenly;
- height: 100%;
- flex: 0.4;
- display: flex;
- flex-direction: column;
- padding: 10px 30px 5% 30px;
+.contactSection {
+  justify-content: space-evenly;
+  height: 100%;
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px 5% 30px;
 }
 
-.dataSet input{
+.dataSet input {
   outline-width: 0;
   background-color: #fff;
-  width:100%;
-  height:10%;
-  min-height:50px;
-  padding:5px 10px;
+  width: 100%;
+  height: 10%;
+  min-height: 50px;
+  padding: 5px 10px;
   border: none;
-  border-left: 10px solid #B01F1C;
+  border-left: 10px solid #b01f1c;
 }
 
 .dataSet textarea {
   outline-width: 0;
   background-color: #fff;
-  width:100%;
+  width: 100%;
   resize: none;
-  height:20%;
-  min-height:100px;
-  padding:5px 10px;
+  height: 20%;
+  min-height: 100px;
+  padding: 5px 10px;
   border: none;
   border-left: 10px solid #ce8500;
 }
@@ -566,54 +564,54 @@ justify-content: space-evenly;
   background-color: rgb(224, 170, 69);
   /* color: #fff; */
   font-weight: 500;
-  width:75%;
+  width: 75%;
   resize: none;
-  padding:10px;
+  padding: 10px;
   border: none;
 }
 
-.documentsSection{
+.documentsSection {
   height: 100%;
   flex: 0.2;
   padding: 30px 30px 5% 30px;
 }
 
-.documentsSection p{
+.documentsSection p {
   cursor: pointer;
 }
 
-.documentsSection h3{
+.documentsSection h3 {
   margin-top: 20px;
 }
 
-.documentsSection p{
-  font-size: 0.8em;  
+.documentsSection p {
+  font-size: 0.8em;
   margin-top: 10px;
 }
 
-.inquiriesSection{
+.inquiriesSection {
   height: 100%;
   flex: 0.4;
   padding: 30px 30px 5% 30px;
 }
 
-.inquiries{
+.inquiries {
   background-color: #f3f5f6;
   width: 100%;
   height: fit-content;
   padding: 30px 30px 5% 30px;
 }
 
-.inquiries li{
+.inquiries li {
   display: flex;
   margin-top: 20px;
 }
 
-.inquiries b{
+.inquiries b {
   white-space: pre;
 }
 
-.abhiyogaSec{
+.abhiyogaSec {
   display: flex;
   justify-content: space-between;
 }
@@ -626,31 +624,30 @@ justify-content: space-evenly;
   text-align: right;
 }
 
-  
 @media only screen and (max-width: 850px) {
   .studentNo {
     flex-direction: column;
     width: 200px;
   }
-  footer{
+  footer {
     height: fit-content;
     padding: 0 25px;
   }
-  .footerSections{
+  .footerSections {
     flex-direction: column;
   }
-  .inquiriesSection{
+  .inquiriesSection {
     padding: 30px 0px 5% 0px;
   }
-  .inquiries{
+  .inquiries {
     background-color: #f3f5f6;
     width: 100%;
     height: fit-content;
   }
-  .contactSection{
+  .contactSection {
     min-height: 500px;
   }
-  .footerTitle img{
+  .footerTitle img {
     max-height: 75px;
   }
   .abhiyogaSec div {
@@ -661,11 +658,11 @@ justify-content: space-evenly;
     text-align: right;
     margin-top: auto;
   }
-  .description{
+  .description {
     flex-direction: column;
     height: 110%;
   }
-  .intro{
+  .intro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -674,20 +671,19 @@ justify-content: space-evenly;
   .intro > p {
     padding: 0;
   }
-  .introTitle{
+  .introTitle {
     font-size: 2em;
   }
   .moto {
-    /* font-size: clamp(1em, 1.5em, 3em); */
     font-size: clamp(1.5em, 2vw, 3em);
     font-weight: 600;
   }
-  
+
   .motoPhonetics {
     font-size: clamp(1em, 2vw, 1em);
     font-weight: 400;
   }
-  
+
   .motoMeaning {
     font-size: clamp(0.75em, 2vw, 1.3em);
     font-weight: 500;
@@ -697,23 +693,23 @@ justify-content: space-evenly;
     font-size: clamp(1em, 2vw, 1.2em);
     font-weight: 600;
   }
-  
+
   .factText {
     font-size: clamp(0.75em, 2vw, 1em);
     font-weight: 400;
   }
-  .inquiriesSection{
+  .inquiriesSection {
     padding: 30px 0px 5% 0px;
   }
-  .inquiries{
+  .inquiries {
     background-color: #f3f5f6;
     width: 100%;
     height: fit-content;
   }
-  .contactSection{
+  .contactSection {
     min-height: 500px;
   }
-  .inquiries li label{
+  .inquiries li label {
     display: grid;
     place-items: center;
   }

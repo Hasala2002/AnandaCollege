@@ -1,17 +1,17 @@
 const blogData = [
-    {
-        id: 0,
-        title: "Sati Pasala Mindfulness Initiative",
-        description: `
+  {
+    id: 0,
+    title: "Sati Pasala Mindfulness Initiative",
+    description: `
         The Sati Pasala Foundation aims in sharing Mindfulness with school and
         university communities. It is a non-profit organization
         which is non-income generating, volunteer based and is entirely managed through donor
         funding. It is free from ethnic, religious and political dimensions, and promotes unity and
         harmony amongst all communities and people.
         `,
-        photo: "./assets/img/blog/0.png",
-        date: "2021.03.01",
-        article: `
+    photo: "./assets/img/blog/0.png",
+    date: "2021.03.01",
+    article: `
 The practice of Mindfulness is broadly popular and has been integrated into the Education system
 across the western world in developed countries. Sati Pasala Foundation is focused at establishing
 Mindfulness in Sri Lanka in a formal and a systematic manner. The Program which was
@@ -39,12 +39,12 @@ members of the Executive Committee of the
 Sati Pasala Foundation are outstanding past
 pupils of Ananda College, it made the choice
 more appropriate for the launch event.  
-        `
-    },
-    {
-        id: 1,
-        title: "Colonel Rajapakse - An Educator and a Gentleman",
-        description: `The philosopher Lao Tzu once said “When
+        `,
+  },
+  {
+    id: 1,
+    title: "Colonel Rajapakse - An Educator and a Gentleman",
+    description: `The philosopher Lao Tzu once said “When
         the work of a leader is done and his aim
         fulfilled, the beneficiaries will say, we did it
         by ourselves.” Since I do not wish to fall into
@@ -52,9 +52,9 @@ more appropriate for the launch event.
         asked to write an article on the occasion of
         the 100th birth anniversary of Colonel George
         Willfred Rajapakse.`,
-        photo: "./assets/img/blog/1.png",
-        date: "2021.03.01",
-        article: `
+    photo: "./assets/img/blog/1.png",
+    date: "2021.03.01",
+    article: `
         My memory goes back to one fateful day in 1964,
 when I first met Colonel Rajapakse. I remember him
 as a tall and handsome person with a commanding
@@ -121,12 +121,12 @@ to give you any certificates for your application!”
 From the time I imitated the “throne speech” at a
 school function, Col. Rajapakse addressed me as
 “Governor.” 
-        `
-    },
-    {
-        id: 2,
-        title: "ACOBA – Qatar Wing",
-        description: `
+        `,
+  },
+  {
+    id: 2,
+    title: "ACOBA – Qatar Wing",
+    description: `
         Blood donation campaigns, bowling and badminton tournaments,
 talent shows, both formal and informal gatherings have been
 common occurrences in otherwise monotonous expat life. In the
@@ -135,9 +135,9 @@ television in 2018, we organized an event themed on it featuring its
 main actors, which drew a massive appreciative response from the
 Sri Lankan community in Qatar
         `,
-        photo: "./assets/img/blog/2.png",
-        date: "2021.03.01",
-        article: `
+    photo: "./assets/img/blog/2.png",
+    date: "2021.03.01",
+    article: `
         Qatar is home to a significant Sri Lankan expatriate
 community across all walks of life. In 2012, a group
 of people with a shared interest took an initiative to
@@ -179,12 +179,12 @@ Project’ in 2014 and funded equipment purchases for
 the college Hockey Team and Life Savings Club on
 subsequent years. In addition, 2 scholarships were
 arranged for the students with financial difficulties. 
-        `
-    },
-    {
-        id: 3,
-        title: "Hasala Madugalle - 106th Head Prefect of Ananda College",
-        description: `
+        `,
+  },
+  {
+    id: 3,
+    title: "Hasala Madugalle - 106th Head Prefect of Ananda College",
+    description: `
         They say “like father like son” therefore
 Hasala Madugalle being appointed as the
 Head Prefect of Ananda College for the year
@@ -196,9 +196,9 @@ Colonel Sudath Madugalle who was known
 to be a role model in the minds
 of fellow Anandians 
         `,
-        photo: "./assets/img/blog/3.png",
-        date: "2021.03.01",
-        article: `
+    photo: "./assets/img/blog/3.png",
+    date: "2021.03.01",
+    article: `
         They say “like father like son” therefore
 Hasala Madugalle being appointed as the
 Head Prefect of Ananda College for the year
@@ -231,14 +231,14 @@ championship in under 18 doubles, by winning
 the championship in Sri Lanka schools under
 19 team.These credentials helped him to win
 school colors as well
-        `
-    },
-    {
-        id: 4,
-        title: `
+        `,
+  },
+  {
+    id: 4,
+    title: `
         Mr.Roshan Gunathilake – Owner of UniverSL software
         `,
-        description: `
+    description: `
         A good future with a good job is the care of
 everyone going to university. But some people
 make it better to bring life to the future anyway.
@@ -248,9 +248,9 @@ and brothers who come to the university.
 About someone who will provide jobs to those
 who are coming out of campus in the future.
         `,
-        photo: "./assets/img/blog/4.png",
-        date: "2021.03.01",
-        article: `
+    photo: "./assets/img/blog/4.png",
+    date: "2021.03.01",
+    article: `
         A good future with a good job is the care of
 everyone going to university. But some people
 make it better to bring life to the future anyway.
@@ -271,12 +271,12 @@ Award 2011, 2013, mBillionth Award 2012,
 e-awabhimani 2011,2016,2017 So don't be
 someone else's political pawn and work for
 your dream. 
-        `
-    },
-    {
-        id: 5,
-        title: "The Revival of English Drama at Ananda",
-        description: `
+        `,
+  },
+  {
+    id: 5,
+    title: "The Revival of English Drama at Ananda",
+    description: `
         The English Drama Circle of Ananda College is
 one of the most accomplished and lauded drama
 societies at school-level in Sri Lanka today. Since
@@ -285,9 +285,9 @@ overturned several prejudices, and helped mould
 some of the most dynamic and cosmopolitan
 Anandians to emerge from school in recent years. 
         `,
-        photo: "./assets/img/blog/5.png",
-        date: "2020.11.01",
-        article: `
+    photo: "./assets/img/blog/5.png",
+    date: "2020.11.01",
+    article: `
         The English Drama Circle of Ananda College is
 one of the most accomplished and lauded drama
 societies at school-level in Sri Lanka today. Since
@@ -324,12 +324,12 @@ English newspapers that same week were quick to
 criticise the play’s Sri Lankan setting and ask if local
 audiences would tolerate Maname being performed
 in Top Hats! 
-        `
-    },
-    {
-        id: 6,
-        title: `The Story of the Ananda College English Debating Society`,
-        description: `
+        `,
+  },
+  {
+    id: 6,
+    title: `The Story of the Ananda College English Debating Society`,
+    description: `
         Two numbers emerge whenever there is a
 debate about the proficiency of English in Sri
 Lanka; five per cent and ninety-five per cent.
@@ -338,9 +338,9 @@ proficient and the latter, the percentage who
 are not. The divide between the vernacular and
 the English language is a social construct...
         `,
-        photo: "./assets/img/blog/6.png",
-        date: "2020.11.01",
-        article: `
+    photo: "./assets/img/blog/6.png",
+    date: "2020.11.01",
+    article: `
         Two numbers emerge whenever there is a
 debate about the proficiency of English in Sri
 Lanka; five per cent and ninety-five per cent.
@@ -378,27 +378,27 @@ few local elites. Today what prevents English
 from being a personalised tool of local elites
 is a few schools dedicated to educating the
 underprivileged. 
-        `
-    },
-    {
-        id: 7,
-        title: "Journey to 'SATHMAHALA'",
-        description: `
+        `,
+  },
+  {
+    id: 7,
+    title: "Journey to 'SATHMAHALA'",
+    description: `
         As the number of students and academic staff grew over the years Mere was a great need of space within a busy urban setting in Maisdana. Under the m-development program of Ananda College initiated by then Minister of Education, distinguished Ananda Alumnus Hon. I. M. R. A. Iniyagolla, a five storeyed class room building (known as 'PASMAHALA) was put up during the principalship of Colonel G. W. Rajapakse in 1977. 
         `,
-        photo: "./assets/img/blog/7.png",
-        date: "2020.03.01",
-        article: `
+    photo: "./assets/img/blog/7.png",
+    date: "2020.03.01",
+    article: `
         Ananda College was established in 1886 as an English Buddhist School to cater to the needs of the Buddhist community during the British colonial period. as the number of students and academic staff grew over the years Mere was a great need of space within a busy urban setting in Maisdana. Under the m-development program of Ananda College initiated by then Minister of Education, distinguished Ananda Alumnus Hon. I. M. R. A. Iniyagolla, a five storeyed class room building (known as 'PASMAHALA) was put up during the principalship of Colonel G. W. Rajapakse in 1977. 
         In 2010, 'PASMAHALA' showed signs of broadening cracks signaling that Ananda Is in need of a new building. When parents and old boys informed the school authorities about the dangerous state of the building, the Engineering DMslon of the Education Ministry and the NationN Building Research Organization (NBRO) evaluated the state of the building and recommended that it Is not suitable kr occupation. Based on the above recommendations the OBA demolished 'PASMAHAUV with the approval of the Ministry of Education in 2014, 
 Mande Alumnus Architect Sallnda Hathugama designed the new structure and managed the project while Ananda Alumnus Structural Engineer Senaka Wanigarathna contributed as the Structural Engineer. Foundation stone was ceremonially laid on the 1st January 2015 by the then Minister of Education Dr Banduia Gunawardena, in the presence el the then Secretary to the Ministry of Defense and Urban Development Mn Gotabaya Rajapakse, then Principal of Ananda College Mr Mtn Llyanagamage, ton OBA president Mr. Lallth Senanayake and then OBA Vice President Mr AShOka Karunaraine 
 
-        `
-    },
-    {
-        id: 8,
-        title: "Ananda’s Glorious “Yasanthabinandana”",
-        description: `
+        `,
+  },
+  {
+    id: 8,
+    title: "Ananda’s Glorious “Yasanthabinandana”",
+    description: `
         He entered the Law College as
 the first step of an illustrious
 career and took oaths as an
@@ -413,9 +413,9 @@ Solicitor General (2005),
 Additional Solicitor General
 (2015).
         `,
-        photo: "./assets/img/blog/8.png",
-        date: "2019.11.01",
-        article: `
+    photo: "./assets/img/blog/8.png",
+    date: "2019.11.01",
+    article: `
         Throughout history the intellectuals and
 professionals produced by Mother Ananda
 have displayed their might in all spheres.
@@ -447,12 +447,12 @@ secured Post Graduate Degree in Law from
 the University of London, had served in several
 international institutions and organizations and
 brought credit to Mother Lanka
-        `
-    },
-    {
-        id: 9,
-        title: "'Trailblazer 2019'",
-        description: `
+        `,
+  },
+  {
+    id: 9,
+    title: "'Trailblazer 2019'",
+    description: `
         Trailblazer 2019 yet another
 amazing event organized by
 Ananda College Old Boys’
@@ -466,9 +466,9 @@ crowd including Parents, Old Boys and
 Well-wishers and was undoubtedly a
 memorable day for all of them. 
         `,
-        photo: "./assets/img/blog/9.png",
-        date: "2019.11.01",
-        article: `
+    photo: "./assets/img/blog/9.png",
+    date: "2019.11.01",
+    article: `
         Trailblazer 2019 yet another
 amazing event organized by
 Ananda College Old Boys’
@@ -497,85 +497,115 @@ introduced by ACOBA and the concept
 was well accepted and made use of by
 the affiliated groups. A record profit was
 generated out of this event
-        `
-    },
-]
+        `,
+  },
+];
 
-window.onscroll = function() {
-    if(window.pageYOffset>=100){
-      $('#navigation').addClass('nav_attach')
-      $('#modal').hide()
-    }else{
-      $('#navigation').removeClass('nav_attach')
-    }
-  };
+window.onscroll = function () {
+  if (window.pageYOffset >= 100) {
+    $("#navigation").addClass("nav_attach");
+    $("#modal").hide();
+  } else {
+    $("#navigation").removeClass("nav_attach");
+  }
+};
 
-const createNewBlogCard = (title,description,photo,date,index) => {
-    let blogCard = document.createElement('div')
-    let blogContent = document.createElement('div')
-    let blogImage = document.createElement('img')
-    let blogDate = document.createElement('div')
-    let blogButton = document.createElement('button')
-    let blogTitle = document.createElement('h3')
-    let blogDescription = document.createElement('h5')
-    blogCard.className = "blogCard"
-    blogContent.className = "content"
-    blogDate.className = "date"
-    blogButton.className = "blogButton"
-    blogButton.textContent = 'View Story'
-    blogButton.setAttribute('data-id',index)
-    blogButton.setAttribute('id','viewStoryButton')
-    blogImage.src = photo
-    blogImage.alt = title
-    blogTitle.textContent = title
-    blogDescription.textContent = description
-    blogContent.append(blogTitle)
-    blogContent.append(blogDescription)
-    blogDate.textContent = date
-    blogCard.append(blogImage)
-    blogCard.append(blogContent)
-    blogCard.append(blogDate)
-    blogCard.append(blogButton)
-    return blogCard
-}
+const createNewBlogCard = (title, description, photo, date, index) => {
+  let blogCard = document.createElement("div");
+  let blogContent = document.createElement("div");
+  let blogImage = document.createElement("img");
+  let blogDate = document.createElement("div");
+  let blogButton = document.createElement("button");
+  let blogTitle = document.createElement("h3");
+  let blogDescription = document.createElement("h5");
+  blogCard.className = "blogCard";
+  blogContent.className = "content";
+  blogDate.className = "date";
+  blogButton.className = "blogButton";
+  blogButton.textContent = "View Story";
+  blogButton.setAttribute("data-id", index);
+  blogButton.setAttribute("id", "viewStoryButton");
+  blogImage.src = photo;
+  blogImage.alt = title;
+  blogTitle.textContent = title;
+  blogDescription.textContent = description;
+  blogContent.append(blogTitle);
+  blogContent.append(blogDescription);
+  blogDate.textContent = date;
+  blogCard.append(blogImage);
+  blogCard.append(blogContent);
+  blogCard.append(blogDate);
+  blogCard.append(blogButton);
+  return blogCard;
+};
 
-blogData && blogData.map((data)=>{
-    let blogContainer = document.getElementById('blogContainer')
-    blogContainer.append(createNewBlogCard(data.title,data.description,data.photo,data.date,data.id))
-})
+blogData &&
+  blogData.map((data) => {
+    let blogContainer = document.getElementById("blogContainer");
+    blogContainer.append(
+      createNewBlogCard(
+        data.title,
+        data.description,
+        data.photo,
+        data.date,
+        data.id
+      )
+    );
+  });
 
-$("#myModal").hide();
-$('#noResultNotification').hide()
+$("#anandaModal").hide();
+$("#noResultNotification").hide();
 
 const setDataOnModal = (storyIndex) => {
-    $('#modalTitle').text(blogData[storyIndex].title)
-    $('#modalImage').attr('src',blogData[storyIndex].photo)
-    $('#modalPara').text(blogData[storyIndex].article)
-    $('#myModal').show()
-}
+  $("#anandaModalTitle").text(blogData[storyIndex].title);
+  $("#anandaModalImage").attr("src", blogData[storyIndex].photo);
+  $("#anandaModalDate").text(blogData[storyIndex].date);
+  $("#anandaModalPara").text(blogData[storyIndex].article);
+  $("#anandaModal").show();
+};
 
-$('[id=viewStoryButton]').click(function() {
-    let storyIndex = $(this).attr('data-id');      
-    setDataOnModal(storyIndex)
-} );
+$("[id=viewStoryButton]").click(function () {
+  let storyIndex = $(this).attr("data-id");
+  setDataOnModal(storyIndex);
+});
 
-$('#close').click(()=>{
-    $('#myModal').hide()
-})
+$("#close").click(() => {
+  $("#anandaModal").hide();
+});
 
-$('#searchBlog').on('input',()=>{
-    $('#blogContainer').html('')
-    let searchValue = ($('#searchBlog').val()).toLowerCase();
-    let filteredList = blogData.filter(article => ((article.title).toLowerCase()).includes(searchValue));
-    if(filteredList.length!==0){filteredList && filteredList.map((data)=>{
-        $('#noResultNotification').hide()
-        let blogContainer = document.getElementById('blogContainer')
-        blogContainer.append(createNewBlogCard(data.title,data.description,data.photo,data.date,data.id))
-        $('[id=viewStoryButton]').click(function() {
-            let storyIndex = $(this).attr('data-id');      
-            setDataOnModal(storyIndex)
-        } );
-    })} else {
-        $('#noResultNotification').show()
-    }
-   });
+$("#searchBlog").on("input", () => {
+  $("#blogContainer").html("");
+  let searchValue = $("#searchBlog").val().toLowerCase();
+  let filteredList = blogData.filter((article) =>
+    article.title.toLowerCase().includes(searchValue)
+  );
+  if (filteredList.length !== 0) {
+    filteredList &&
+      filteredList.map((data) => {
+        $("#noResultNotification").hide();
+        let blogContainer = document.getElementById("blogContainer");
+        blogContainer.append(
+          createNewBlogCard(
+            data.title,
+            data.description,
+            data.photo,
+            data.date,
+            data.id
+          )
+        );
+        $("[id=viewStoryButton]").click(function () {
+          let storyIndex = $(this).attr("data-id");
+          setDataOnModal(storyIndex);
+        });
+      });
+  } else {
+    $("#noResultNotification").show();
+  }
+});
+
+const mobileNav = document.querySelector(".navlinks");
+const hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener("click", function () {
+  mobileNav.classList.toggle("active");
+  hamburger.classList.toggle("is-active");
+});
