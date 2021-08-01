@@ -23,7 +23,7 @@ const societiesList = [
   {
     id: 3,
     photo: "./assets/img/societies/3.jpg",
-    name: "Ananda Club",
+    name: "ACAA",
     description:
       "	The  Aeronautical Academy  of Ananda College was established in 2005 with the patronage of the past principal Mr. B.A. Aberathne and the master in charge Mr. Duminda Jayasuriya",
   },
